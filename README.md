@@ -1,7 +1,8 @@
 # AutoIt Minecraft Fishing Bot
 
 [![AutoIt](https://img.shields.io/badge/language-AutoIt-blue.svg)](https://www.autoitscript.com/site/)
-[![License](https://img.shields.io/github/license/yourusername/your-repo-name)](https://github.com/yourusername/your-repo-name/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yourusername/your-repo-name/blob/main/LICENSE)
+
 
 ## Description
 This AutoIt script automates fishing in Minecraft, complete with a user-friendly graphical interface. It constantly scans for a red color within a specified area on the screen and simulates fishing when the color is detected. The script provides real-time status updates, including fish caught and runtime. It also offers an easy-to-use close bind.
