@@ -35,6 +35,10 @@ This AutoIt script automates fishing in Minecraft. It constantly scans for a red
 
 6. The graphical interface will display the number of fish caught and the runtime.
 
-**Note:** Ensure that Minecraft clearly displays the red color within a square on the screen, night can be challenging for the script, so make sure you have a torch around. Failure to do so may result in the script not detecting the fishing action.
+**Testing:** I ran the script for about 1 hour without stopping, and it was surprisingly 100% accurate.
+
+**Note:** Ensure that Minecraft clearly displays the red color within a square on the screen, night can be challenging for the script, so make sure you have a torch around. F1 might help for clarity. Failure to do so may result in the script not detecting the fishing action.
 
 Feel free to customize the script. Enjoy automated fishing in Minecraft!
+
+
