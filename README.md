@@ -8,7 +8,7 @@ This AutoIt script automates fishing in Minecraft, complete with a user-friendly
 
 ## Requirements
 - [AutoIt](https://www.autoitscript.com/site/autoit/downloads/): Install AutoIt to run the script.
-- Minecraft: Ensure Minecraft is installed and configured properly.
+- Minecraft
 
 ## Installation
 
