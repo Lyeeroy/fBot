@@ -19,9 +19,9 @@ This AutoIt script automates fishing in Minecraft. It constantly scans for a red
 
 2. **Configure Minecraft:**
    - Launch Minecraft and make sure you have a fishing rod in your hand and are facing the water.
-   - Important: Important: Make sure you have red color inside a square on the screen. The script relies on this for fishing detection.
+   - Important: Make sure you have red color inside a square on the screen. The script relies on this for fishing detection.
 
-## Usage
+## Set-up
 
 1. Run the AutoIt script after successfully installing AutoIt.
 
