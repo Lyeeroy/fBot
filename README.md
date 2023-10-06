@@ -1,0 +1,2 @@
+# fBot
+Minecraft Fishing Bot
