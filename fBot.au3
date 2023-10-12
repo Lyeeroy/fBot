@@ -49,11 +49,6 @@ GUICtrlSetGraphic(-1, $GUI_GR_PENSIZE, 3)
 GUICtrlSetGraphic(-1, $GUI_GR_RECT, 0, 0, $width, $heigth)
 GUISetState(@SW_HIDE)
 
-#include <Misc.au3>
-#include <GUIConstantsEx.au3>
-#include <WindowsConstants.au3>
-#include <WinAPI.au3>
-
 _edge()
 
 Func _edge()
@@ -98,7 +93,7 @@ Func _main()
 			GUI_MainUpdate()
 			GUI_TimeUpdate()
 			GUICtrlSetData($hLabel_FishCount, "Fish Caught: " & $iFishCount)
-			$iTimer = TimerInit()
+			$iTimer = TimerInit() ; Reset the timer
 		EndIf
 
 		Local $aRedPixel = PixelSearch($iSquareLeft, $iSquareTop, $iSquareRight, $iSquareBottom, 0xBE2B27, 50)
@@ -121,7 +116,7 @@ Func _main()
 
 				Local $aRedPixel = PixelSearch($iSquareLeft, $iSquareTop, $iSquareRight, $iSquareBottom, 0xBE2B27, 50)
 
-				If Not IsArray($aRedPixel) Then
+				If Not IsArray($aRedPixel) Then ;
 					ConsoleWrite("Red color not found on the screen: Recast" & @CRLF)
 					GUICtrlSetData($hStatus, "Recast")
 					MouseClick('right')
