@@ -23,11 +23,11 @@ This AutoIt script automates fishing in Minecraft. It constantly scans for a red
 
 1. Run the AutoIt script after successfully installing AutoIt.
 
-2. A GUI will appear, displaying the fishing bot's status.
+2. A GUI will appear, displaying the fishing bot's status if minectraft is active.
 
-3. Minecraft must be the active window for the script to function. If it's not, the script will wait for Minecraft to become active.
+3. Minecraft must be the active window for the script to function.
 
-4. After a 4-second delay for Minecraft setup, the fishing bot will activate, and the script will begin monitoring for the red color within the specified area.
+4. After pressing F2, the fishing bot will activate, and the script will begin monitoring for the red color within the specified area.
 
 5. The fishing bot will continue running until you press the "ESC" key.
 
